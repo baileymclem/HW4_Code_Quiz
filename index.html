@@ -15,7 +15,9 @@
     
     <a href="score.html">View High Scores</a>
 
-    <div class="container">
+    <h1 id="countdown"></h1>
+
+    <container id = "quiz">
         <div class="row">
             <div class="col-sm">
                 <h2>JS Code Quiz Challenge</h2>
@@ -24,13 +26,23 @@
 
         <div row="row">
             <div class="col-sm">
-                <p>Welcome to Javascript code quiz challenge! Answer all the questions within the time allowed, miss one and get a 10 second penelty.</p>
+                <p id="questions">Welcome to Javascript code quiz challenge! Answer all the questions within the time allowed, miss one and get a 10 second penelty.</p>
                  
             </div>
         </div>
-    </div>
 
+        <div class ="row">
+            <div class="col-sm">
+                <div class="buttons">
+                    <button aria-label="start" id="quizButton">
+                       Start 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </container>
 
+    
 
    
     <script src="script.js"></script>

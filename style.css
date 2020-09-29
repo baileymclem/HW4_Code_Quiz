@@ -4,6 +4,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    text-align: right;
+}
+
 h2 {
     text-align: center;
     font-weight: bold;
@@ -33,6 +37,22 @@ a:active {
     border-style: solid;
 }*/
 
-p {
+.col-sm {
     text-align: center;
+}
+
+/* p {
+    text-align: center;
+} */
+
+button {
+    color: ghostwhite;
+    font-weight: bold;
+    background-color: limegreen;
+    border-style: solid;
+    border-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
