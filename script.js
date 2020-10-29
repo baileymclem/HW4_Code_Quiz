@@ -36,9 +36,9 @@ var questions = [
       "for (i<=5;i++)",
       "for i= 1 to 5",
       "for (i = 0;i <=5)",
-      "for (i = 0; i ,=5; i++)",
+      "for (i = 0; i < 5; i++)",
     ],
-    correctAnswer: "for (i = 0; i ,=5; i++)",
+    correctAnswer: "for (i = 0; i < 5; i++)",
   },
   {
     question: "How can you add a comment in a JavaScript?",
