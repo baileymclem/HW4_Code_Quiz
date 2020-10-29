@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-   
-    <script src="script.js"></script>
-</body>
+  </head>
+
+  <body>
+    <div class="container" id="score-container">
+      <h1>Ya Done!</h1>
+      <h2>
+        Score
+        <div id="display-score"></div>
+      </h2>
+      <input type="text" id="initials-place" placeholder="initials" />
+      <br />
+
+      <button id="save-score-btn">Save Score</button>
+
+      <br /><br />
+
+      <a href="index.html">Go Back</a>
+    </div>
+
+    <div id="show-scores">
+      <div id="all-scores">
+        
+      </div>
+    </div>
+    <script src="score.js"></script>
+  </body>
 </html>

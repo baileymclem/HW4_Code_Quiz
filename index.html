@@ -1,63 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />  
+  </head>
 
+  <body>
+    <a href="highscores.html">View Past Scores</a>
 
-<body>
+    <div class="timer-container">
+      <h1 id="countdown">Timer</h1>
+    </div>
 
-    <a href="score.html">View High Scores</a>
+    <div class="container">
+      <div id="start-container" class="block">
+        <h2>JS Code Quiz Challenge</h2>
+        <p>
+          Welcome to Javascript code quiz challenge! Answer all the questions
+          within the time allowed, miss one and get a 10 second penelty.
+        </p>
 
-    <h1 id="countdown"></h1>
-
-    <container id="quiz">
-        <div class="row">
-            <div class="col-sm">
-                <h2>JS Code Quiz Challenge</h2>
-            </div>
+        <div id="buttons">
+          <button id="start-btn">Start</button>
         </div>
+      </div>
+    </div>
 
-        <div row="row">
-            <div class="col-sm">
-                <p id="question-container">Welcome to Javascript code quiz challenge! Answer all the questions within the time
-                    allowed, miss one and get a 10 second penelty.</p>
+    <div id="question-container" class="hide">
+      <h2 id="question-title"></h2>
 
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-                <div class="buttons">
-                    <button aria-label="start" id="quizButton">
-                        Start
-                    </button>
-                </div>
-            </div>
-        </div>
-    </container>
-
-
-
+      <div id="choices" class="choices-list"></div>
+    </div>
 
     <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
-
-
+  </body>
 </html>
