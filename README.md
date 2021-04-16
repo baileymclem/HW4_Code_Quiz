@@ -24,16 +24,6 @@ SO THAT I can qauge my progress compared to my peers
 
 I am still having trouble with local storage.
 
-## Future Version 
-
-* Fourth page with more movie details and a viewable trailer
-* More Mood options to choose from
-* The ability to select multiple genres at once
-* Option to output different/random list of selected genre of movies
-* User pick filter
-* Use of search option
-* Easier & quicker shortcut buttons for user to navigate throughout all pages
-* Footbar emojis that links to seasonal suggested movies
 
 ## License 
 None 
